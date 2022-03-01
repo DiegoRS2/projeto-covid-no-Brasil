@@ -1,0 +1,14 @@
+.footer{
+    background-color: #dddada;
+}
+.conteudo{
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin: 5px;
+    color: red;
+}

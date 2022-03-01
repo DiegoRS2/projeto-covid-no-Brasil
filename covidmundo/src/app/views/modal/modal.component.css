@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+.cadastrocadastro{
+    margin: 15px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: #7d32d3;
+    color: white;
+}
+.botaofechar{
+    width: 90px;
+    height: 30px;
+    border-color: #7d32d3;
+    background-color: white;
+    color: #7d32d3;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.titulo{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #300066;
+    margin: auto;
+    padding: 25px; 
+}

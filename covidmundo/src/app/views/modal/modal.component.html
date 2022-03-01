@@ -1,0 +1,29 @@
+<div class="modal" class="modal fade" role="dialog">
+    <div class="dialogo">
+      <div class="modal-content">
+        <div class="cabecalho">
+          <h1 class="titulo">Cadastre-se para receber notícias</h1>
+        </div>
+        <form>
+          <mat-form-field>
+            <input type="text" autocomplete="off" matInput placeholder="Nome" [(ngModel)]="pessoa.name" name="name">
+          </mat-form-field>
+          <mat-form-field>
+            <input type="email" autocomplete="off" matInput placeholder="Email" [(ngModel)]="pessoa.email" name="email">
+          </mat-form-field>
+          <mat-form-field>
+            <input type="tel" autocomplete="off" matInput placeholder="Telefone" [(ngModel)]="pessoa.telefone" name="telefone"mask="(00)00000-0000" >
+          </mat-form-field>
+          <mat-form-field>
+            <input type="password" autocomplete="off" matInput placeholder="senha" [(ngModel)]="pessoa.senha" name="senha">
+          </mat-form-field> 
+        </form>
+        
+  
+        <div class="modal-footer">
+          <button type="button" class="botaofechar" data-dismiss="modal" (click)="cancelar()">Fechar</button>
+          <button type="button" class="cadastrocadastro" data-dismiss="modal" (click)="cadastro()">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
