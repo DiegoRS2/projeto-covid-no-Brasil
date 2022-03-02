@@ -10,7 +10,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent implements OnInit {
-  
+
   pessoa: Pessoa = {
     name: '',
     email: '',
@@ -45,7 +45,7 @@ export class ModalComponent implements OnInit {
       duration: 3000,
       horizontalPosition: "center",
       verticalPosition: "top",
-      
+
     });
   }
 }
