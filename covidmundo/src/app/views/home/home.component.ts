@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
         labels: ['São Paulo', 'Minas Gerais', 'Rio de Janeiro', 'Paraná', 'Rio Grande do Sul', 'Bahia'],
         datasets: [{
           label: 'Ranking dos seis estados com maior número de mortes',
-          data: [	164532, 59645, 71778, 42307, 38272, 29181],
+          data: [164532, 59645, 71778, 42307, 38272, 29181],
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
             'rgba(54, 162, 235, 0.2)',
