@@ -44,8 +44,7 @@ export class ModalComponent implements OnInit {
     this.snackBar.open(msg, 'x', {
       duration: 3000,
       horizontalPosition: "center",
-      verticalPosition: "top",
-
+      verticalPosition: "top"
     });
   }
 }
