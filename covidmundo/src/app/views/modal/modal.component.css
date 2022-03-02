@@ -3,7 +3,7 @@ form{
     flex-direction: column;
 }
 .cadastrocadastro{
-    margin: 15px;
+    margin: 7px;
     color: white;
     border-radius: 5px;
     width: 100px;
@@ -26,4 +26,9 @@ form{
     color: #300066;
     margin: auto;
     padding: 25px; 
+}
+.modal-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
