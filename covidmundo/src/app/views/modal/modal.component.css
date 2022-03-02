@@ -2,7 +2,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-.cadastrocadastro{
+.cadastro{
     margin: 7px;
     color: white;
     border-radius: 5px;
@@ -10,6 +10,7 @@ form{
     height: 30px;
     background-color: #7d32d3;
     color: white;
+    cursor: pointer;
 }
 .botaofechar{
     width: 90px;
@@ -19,6 +20,7 @@ form{
     color: #7d32d3;
     font-weight: 400;
     border-radius: 5px;
+    cursor: pointer;
 }
 .titulo{
     font-size: 1.5rem;
