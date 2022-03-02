@@ -8,10 +8,10 @@ export class Covid {
     refuses: number
     datetime: Date
 }
-export class Pessoa{
+export class Pessoa {
     id?: number
     name: string
-    email:string
-    telefone:number
-    senha:any
+    email: string
+    telefone: number
+    senha: any
 }
